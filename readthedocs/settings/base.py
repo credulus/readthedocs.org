@@ -313,6 +313,7 @@ class CommunityBaseSettings(Settings):
 
     # Misc application settings
     GLOBAL_ANALYTICS_CODE = 'UA-17997319-1'
+    USE_PROMOS = False
     GRAVATAR_DEFAULT_IMAGE = 'https://media.readthedocs.org/images/silhouette.png'  # NOQA
     RESTRICTEDSESSIONS_AUTHED_ONLY = True
     RESTRUCTUREDTEXT_FILTER_SETTINGS = {
